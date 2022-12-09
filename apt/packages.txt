@@ -1,0 +1,13 @@
+git
+i3
+neovim
+tmux
+blueman
+ibus
+openconnect
+curl
+make
+python3-venv
+flameshot
+nitrogen
+zsh

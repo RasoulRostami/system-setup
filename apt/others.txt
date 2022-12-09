@@ -1,0 +1,12 @@
+google-chrome
+code
+docker
+docker-compose
+slack
+insomnia
+vim-plug
+packer # nvim package manager
+oh-my-zsh
+zsh-syntax-highlighting
+zsh-autosuggestions
+tmp # tmux package manager

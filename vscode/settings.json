@@ -1,0 +1,19 @@
+{
+    // ~/.config/Code/User/settings.json
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "tabnine.experimentalAutoImports": true,
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+}
