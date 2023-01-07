@@ -10,3 +10,5 @@ oh-my-zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
 tmp # tmux package manager
+nvm # node version mangement
+doom emacs

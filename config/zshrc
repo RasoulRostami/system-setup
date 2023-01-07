@@ -117,3 +117,18 @@ fi
 
 alias system-settings="gnome-control-center"
 alias galery="nautilus"
+alias digi-vpn="sudo openconnect 93.113.226.130:28015 --user=rasoul.rostami@digikala.com --servercert pin-sha256:6//rmFy5rOIccrz6zVnotKkAwoCy9cfd95Az/XEv9sQ="
+alias ehna-vpn="sudo openconnect v.ehna.me"
+alias stage02="ssh r..rostami@staging02"
+alias stage03="ssh r..rostami@staging03"
+alias stage05="ssh r..rostami@staging05"
+alias stage06="ssh r..rostami@staging06 -p 2022"
+alias stage07="ssh r..rostami@staging07 -p 2022"
+alias vim="nvim"
+
+set -o vi
+export TERM=xterm-256color
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

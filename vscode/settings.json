@@ -1,19 +1,42 @@
 {
-    // ~/.config/Code/User/settings.json
-    "window.zoomLevel": 1,
-    "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative",
-    "tabnine.experimentalAutoImports": true,
-
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": false,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-        "before": ["j", "j"],
-        "after": ["<Esc>"]
-        }
-    ],
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+    // "source.unusedImports": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorSurroundingLines": 15,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "workbench.editor.showTabs": false,
+  // "editor.rulers": [ 80 ],
+  "tabnine.experimentalAutoImports": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "clipboard-manager.maxClips": 30,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "git.timeline.showAuthor": false,
+  "cSpell.userWords": ["aiohttp", "loguru", "upstreams"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "workbench.colorTheme": "Monokai Pro",
+  "window.zoomLevel": 1
 }

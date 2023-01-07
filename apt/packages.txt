@@ -11,3 +11,5 @@ python3-venv
 flameshot
 nitrogen
 zsh
+emacs
+
